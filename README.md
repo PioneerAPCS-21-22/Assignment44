@@ -8,6 +8,8 @@ For this assignment you will setup a Java project with Maven. Maven will be used
 
 2. Execute the Maven goal in the Shell to create a Maven project (make sure to use your own name instead of "mycompany" for the package).
 
+`mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false`
+
 3. Make the updates to the POM (my file is included here in the repo).
 
 **Note: my POM uses the default values for the package and project names, so adjust those to match your values.**
